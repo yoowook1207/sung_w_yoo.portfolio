@@ -25,7 +25,7 @@ const Home = () => {
         <InfoSection {...homeObjTwo} />
         <InfoSection {...homeObjThree} />
         <ProjectGrid id='projectGrid'/>
-        <Contact />
+        <Contact id='contactMe'/>
         <Footer />
     </> 
   )

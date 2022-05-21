@@ -8,7 +8,7 @@ const ProjectGrid = () => {
   return (
     <PGContainer id="projectGrid">
         <PGH1>
-            and more projects
+            ... and more projects
         </PGH1>
         <PGWrapper>
             <PGCard href="https://github.com/yoowook1207/TUE-TrackUrEmployee" target="_blank" rel="noreferrer">

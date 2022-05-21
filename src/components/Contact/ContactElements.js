@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContactContainer = styled.div `
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@ export const ContactForm = styled.form `
     }
 
     @media screen and (max-width:540px) {
-        width: 400px;
+        width: 380px;
     }
 `
 

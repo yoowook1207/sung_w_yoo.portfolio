@@ -58,11 +58,11 @@ const Navbar = ({toggle}) => {
 
                                 <DropdownA to='project2'
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                                >Restroom Finder</DropdownA>
+                                >NEWS!FY</DropdownA>
                                 
                                 <DropdownA to='project3'
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                                >NEWS!FY</DropdownA>
+                                >Wedding Invitation</DropdownA>
                                 
                                 <DropdownA to='projectGrid'
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80}
@@ -71,7 +71,9 @@ const Navbar = ({toggle}) => {
                             </DropdownContent>
                         </Dropdown>
                         <NavItem>
-                            <NavLinks to='contact'>Contact</NavLinks>
+                            <NavLinks to='contactMe'
+                            smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                            >Contact</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

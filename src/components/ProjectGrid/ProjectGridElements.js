@@ -74,13 +74,14 @@ export const PGH1 = styled.h1 `
 `
 
 export const PGH2 = styled.h2 `
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 10px;
     text-decoration: none;
+    color: #4D7C8A;
 `
 
 export const PGP = styled.p `
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
     text-decoration: none;
 `
