@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-    background: #000;
+    background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -82,6 +82,51 @@ export const NavLinks =styled(LinkS) `
     cursor: pointer;
 
     &.active {
+        border-bottom: 3px solid #4d7c8a;
+    }
+`
+
+export const DropdownContent = styled.div `
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+    top: 80px;
+    background-color: rgba(0,0,0,0.8);
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-left: -40px;
+`
+
+export const Dropdown = styled.div `
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+
+    &:hover ${DropdownContent} {
+        display: block;
+    }
+`
+
+export const DropdownA =styled(LinkS) `
+    color: #fff;
+    display: block;
+    align-items: center;
+    text-decoration: none;
+    padding-bottom: 5px;
+    margin: 10px;
+    height: 100%;
+    cursor: pointer;
+
+    &.active {
+        border-bottom: 3px solid #4d7c8a;
+    }
+
+    &.active ${Dropdown} {
         border-bottom: 3px solid #4d7c8a;
     }
 `
