@@ -15,7 +15,7 @@ import {
     Img, 
     Heading2} from './InfoElements'
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText,headline2, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText,headline2, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, linkURL}) => {
   return (
     <>
      <InfoContainer lightBg={lightBg} id={id}>
@@ -29,7 +29,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText,headline2, headl
                     <Subtitle darkText={darkText}> {description}</Subtitle>
                     <LinkWrap>
                         <Button 
-                        href = 'https://bit.ly/3wG1G7g'
+                        href = {linkURL}
                         target="_blank"
                         rel="noreferrer"
                         spy={true}

@@ -6,6 +6,7 @@ import InfoSection from '../components/InfoSection'
 import { aboutMe, homeObjOne, homeObjThree, homeObjTwo } from '../components/InfoSection/Data'
 import ProjectGrid from '../components/ProjectGrid'
 import Footer from '../components/Footer'
+import Contact from '../components/Contact'
 
 const Home = () => {
     const [isOpen, setOpen] = useState(false)
@@ -24,6 +25,7 @@ const Home = () => {
         <InfoSection {...homeObjTwo} />
         <InfoSection {...homeObjThree} />
         <ProjectGrid id='projectGrid'/>
+        <Contact />
         <Footer />
     </> 
   )

@@ -13,7 +13,8 @@ export const aboutMe = {
     alt: 'Sung Wook Yoo Profile Picture',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    linkURL: 'https://bit.ly/3wG1G7g'
 };
 
 export const homeObjOne = {
@@ -31,7 +32,8 @@ export const homeObjOne = {
     alt: 'Bryss Homepage',
     dark: true,
     primary: true,
-    darkText: true
+    darkText: true,
+    linkURL: 'https://bit.ly/3wG1G7g'
 }
 
 export const homeObjTwo = {
@@ -63,7 +65,7 @@ export const homeObjThree = {
     description: 'I designed my own wedding invitation. Using React.js and ',
     buttonLabel: 'Button Example',
     imgStart: true,
-    img: require('../../assets/images/Bryss.png'),
+    img: require('../../assets/images/wedding.jpg'),
     alt: 'Example of Wedding Invitation',
     dark: true,
     primary: true,
