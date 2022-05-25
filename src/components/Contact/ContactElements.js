@@ -44,6 +44,17 @@ export const ContactForm = styled.form `
     }
 `
 
+export const UserInput = styled.input `
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+`
+
 export const EmailInput = styled.input `
     width: 100%;
     padding: 12px;
@@ -66,10 +77,13 @@ export const TextInput = styled.textarea `
     resize: vertical;
 `
 
-export const ContactButton = styled.button `
+export const ContactButton =styled.input `
     border-radius: 50px;
+    background: #4D7C8A;
     white-space: nowrap;
-    background:#4D7C8A;
+    padding: 12px 30px;
+    color: #F7ECE1;
+    font-size: 16px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -78,4 +92,11 @@ export const ContactButton = styled.button `
     align-items: center;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+    width: 100%;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #000
+    }
 `
