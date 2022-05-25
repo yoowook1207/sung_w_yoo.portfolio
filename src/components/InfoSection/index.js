@@ -15,7 +15,7 @@ import {
     Img, 
     Heading2} from './InfoElements'
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText,headline2, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, linkURL}) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText,headline2, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, linkURL, deployedURL, button2Label }) => {
   return (
     <>
      <InfoContainer lightBg={lightBg} id={id}>
@@ -38,6 +38,17 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText,headline2, headl
                         dark={dark ? 1 : 0}
                         dark2={dark2 ? 1: 0}
                         >{buttonLabel}</Button>
+                        
+                        <Button 
+                        href = {deployedURL}
+                        target="_blank"
+                        rel="noreferrer"
+                        spy={true}
+                        exact="true"
+                        primary={primary ? 1 : 0}
+                        dark={dark ? 1 : 0}
+                        dark2={dark2 ? 1: 0}
+                        >{button2Label}</Button>
                     </LinkWrap>
                  </TextWrapper>
                  </Column1>

@@ -14,7 +14,9 @@ export const aboutMe = {
     dark: true,
     primary: true,
     darkText: false,
-    linkURL: 'https://bit.ly/3wG1G7g'
+    linkURL: 'https://bit.ly/3wG1G7g',
+    deployedURL: 'https://github.com/yoowook1207/SungWook_Yoo-Portfolio',
+    button2Label: 'GitHub'
 };
 
 export const homeObjOne = {
@@ -33,7 +35,9 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: true,
-    linkURL: 'https://bit.ly/3wG1G7g'
+    linkURL: 'https://github.com/RyanRobCodes/BRYSS-Meals',
+    deployedURL: 'https://bryss-meals.herokuapp.com/',
+    button2Label: 'Deployed'
 }
 
 export const homeObjTwo = {
@@ -51,7 +55,10 @@ export const homeObjTwo = {
     alt: 'NEWS!FY Homepage',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    linkURL: 'https://github.com/yoowook1207/Newsify',
+    deployedURL: 'https://yoowook1207.github.io/Newsify/',
+    button2Label: 'Deployed'
 };
 
 export const homeObjThree = {
@@ -60,14 +67,17 @@ export const homeObjThree = {
     lightText: false,
     lightTextDesc: true,
     topLine: 'Project 3',
-    headline2: 'Sung Wook and Semi',
-    headline: 'Wedding Invitation',
-    description: 'I designed my own wedding invitation. Using React.js and ',
+    headline2: 'Wedding Invitation',
+    headline: 'Sung Wook and Semi',
+    description: 'I designed my own wedding invitation. Using React.js and MailJS API. It is mobile friendly, but also responsive to desktop.',
     buttonLabel: 'GitHub',
     imgStart: true,
     img: require('../../assets/images/wedding.jpg'),
     alt: 'Example of Wedding Invitation',
     dark: true,
     primary: true,
-    darkText: true
+    darkText: true,
+    linkURL: 'https://github.com/yoowook1207/wedding-invitation',
+    deployedURL: '',
+    button2Label: 'Deployed'
 }

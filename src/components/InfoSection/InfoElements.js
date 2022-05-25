@@ -93,6 +93,7 @@ export const Subtitle = styled.p`
 export const LinkWrap = styled.div`
     display: flex;
     justify-content: flex-start;
+    gap: 10px;
 `
 
 export const ImgWrap = styled.div`
