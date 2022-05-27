@@ -69,15 +69,15 @@ export const homeObjThree = {
     topLine: 'Project 3',
     headline2: 'Wedding Invitation',
     headline: 'Sung Wook and Semi',
-    description: 'I designed my own wedding invitation. Using React.js and MailJS API. It is mobile friendly, but also responsive to desktop.',
+    description: 'I built my own wedding invitation. Using React.js and MailJS API. It is mobile friendly, but also responsive to desktop. Contents of Home, Our Story, Gallery, RSVP, Message.',
     buttonLabel: 'GitHub',
     imgStart: true,
-    img: require('../../assets/images/wedding.jpg'),
+    img: require('../../assets/images/wedding.png'),
     alt: 'Example of Wedding Invitation',
     dark: true,
     primary: true,
     darkText: true,
     linkURL: 'https://github.com/yoowook1207/wedding-invitation',
-    deployedURL: '',
+    deployedURL: 'https://sungwook-semi-wedding-invitati.herokuapp.com/',
     button2Label: 'Deployed'
 }
