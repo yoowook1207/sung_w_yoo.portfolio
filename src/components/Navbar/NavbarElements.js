@@ -13,6 +13,7 @@ export const Nav = styled.nav`
     position: sticky;
     top:0;
     z-index: 10;
+
     
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
@@ -39,6 +40,10 @@ export const NavLogo = styled(LinkR) `
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+
+    &:hover {
+        color: #4d7c8a
+    }
 `
 
 export const MobileIcon = styled.div `
@@ -84,6 +89,10 @@ export const NavLinks =styled(LinkS) `
     &.active {
         border-bottom: 3px solid #4d7c8a;
     }
+    
+    &:hover {
+        color: #4d7c8a
+    }
 `
 
 export const DropdownContent = styled.div `
@@ -110,6 +119,7 @@ export const Dropdown = styled.div `
     &:hover ${DropdownContent} {
         display: block;
     }
+    
 `
 
 export const DropdownA =styled(LinkS) `
@@ -121,6 +131,10 @@ export const DropdownA =styled(LinkS) `
     margin: 10px;
     height: 100%;
     cursor: pointer;
+
+    &:hover {
+        color: #4d7c8a
+    }
 
     &.active {
         border-bottom: 3px solid #4d7c8a;

@@ -54,15 +54,19 @@ const Navbar = ({toggle}) => {
 
                                 <DropdownA to='project1'
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                                >BRYSS</DropdownA>
+                                >GymZone</DropdownA>
 
                                 <DropdownA to='project2'
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                                >NEWS!FY</DropdownA>
+                                >Medentra Plus</DropdownA>
                                 
                                 <DropdownA to='project3'
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                                >Wedding Invitation</DropdownA>
+                                >Abilify MyCite</DropdownA>
+
+                                <DropdownA to='project4'
+                                smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                                >mba Aviation</DropdownA>
                                 
                                 <DropdownA to='projectGrid'
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80}
