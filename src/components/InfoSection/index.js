@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '../ButtonElement'
 import { 
     InfoContainer,
     InfoWrapper,
@@ -10,7 +9,6 @@ import {
     TopLine,
     Heading,
     Subtitle,
-    LinkWrap,
     ImgWrap,
     Img, 
     Heading2} from './InfoElements'
@@ -27,7 +25,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText,headline2, headl
                     <Heading2 lightText={lightText}>{headline2}</Heading2>
                     <Heading lightText={lightText}>{headline}</Heading>
                     <Subtitle darkText={darkText}> {description}</Subtitle>
-                    <LinkWrap>
+                    {/* <LinkWrap>
                         <Button 
                         href = {linkURL}
                         target="_blank"
@@ -49,7 +47,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText,headline2, headl
                         dark={dark ? 1 : 0}
                         dark2={dark2 ? 1: 0}
                         >{button2Label}</Button>
-                    </LinkWrap>
+                    </LinkWrap> */}
                  </TextWrapper>
                  </Column1>
                  <Column2>
