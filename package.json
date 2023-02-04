@@ -1,7 +1,7 @@
 {
   "name": "sungwookyoo",
   "version": "0.1.0",
-  "homepage": "https://yoowook1207.github.io/SungWook_Yoo-Portfolio/",
+  "homepage": "https://yoowook1207.github.io/sung_w_yoo.portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
