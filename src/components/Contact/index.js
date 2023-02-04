@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import { ContactContainer, ContactWrapper, ContactH1, ContactForm, EmailInput, TextInput, Colored, ContactButton, UserInput } from './ContactElements'
 import emailjs from '@emailjs/browser'
 
-
 const Contact = () => {
 
   const form = useRef();
