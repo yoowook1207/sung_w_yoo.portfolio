@@ -6,7 +6,7 @@ export const aboutMe = {
     topLine: 'About Me',
     headline2: 'My Name is',
     headline: 'Sung Wook Yoo',
-    description: 'Inspiring Full Stack Developer who has 5+ years development experience. Familiar to work in Angular framework for front-end and NodeJS for back-end.',
+    description: 'Inspiring Full Stack Developer who has 6+ years development experience. Familiar to work in Angular framework and NodeJS.',
     buttonLabel: 'Resume',
     imgStart: false,
     img: require('../../assets/images/profile-pic.png'),
@@ -14,9 +14,9 @@ export const aboutMe = {
     dark: true,
     primary: true,
     darkText: true,
-    linkURL: 'https://bit.ly/3wG1G7g',
+    linkURL: '',
     deployedURL: 'https://github.com/yoowook1207',
-    button2Label: 'GitHub'
+    button1Label: 'GitHub'
 };
 
 export const homeObjOne = {
@@ -35,7 +35,8 @@ export const homeObjOne = {
     primary: true,
     darkText: false,
     linkURL: '',
-    deployedURL: '',
+    deployedURL: 'https://powerhrg.com/',
+    button1Label: 'Website',
 }
 
 export const homeObjTwo = {
@@ -44,17 +45,18 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: true,
     topLine: 'Project 2',
-    headline2: 'Medical Products Supplier',
-    headline: 'Medentra Plus',
+    headline2: 'Find your next home',
+    headline: 'Homesnap',
     description: "Developed a single page application using Angular 11. Implemented a live chat function in the corner of the website, using LiveChat APIs. Built a products comparison page using NgRx library to hold up four products to compare.",
     imgStart: false,
-    img: require('../../assets/images/medentra.png'),
-    alt: 'Medentra Plus Homepage',
+    img: require('../../assets/images/Homesnap.png'),
+    alt: 'Homesnap',
     dark: true,
     primary: true,
     darkText: true,
     linkURL: '',
-    deployedURL: '',
+    deployedURL: 'https://www.homesnap.com/',
+    button1Label: 'Website',
 };
 
 export const homeObjThree = {
@@ -74,8 +76,8 @@ export const homeObjThree = {
     primary: true,
     darkText: false,
     linkURL: '',
-    deployedURL: '',
-    button2Label: 'Deployed'
+    deployedURL: 'https://www.otsuka-us.com/products-solutions-and-patient-support/abilify-mycite-information',
+    button1Label: 'Official Docs'
 }
 
 export const homeObjFour = {
@@ -95,8 +97,8 @@ export const homeObjFour = {
     primary: true,
     darkText: true,
     linkURL: '',
-    deployedURL: '',
-    button2Label: 'Deployed'
+    deployedURL: 'https://www.mba.aero/',
+    button1Label: 'Deployed'
 }
 
 // export const homeObjFive = {
@@ -117,5 +119,5 @@ export const homeObjFour = {
 //     darkText: false,
 //     linkURL: 'https://github.com/RyanRobCodes/BRYSS-Meals',
 //     deployedURL: 'https://bryss-meals.herokuapp.comlala/',
-//     button2Label: 'Deployed'
+//     button1Label: 'Deployed'
 // }

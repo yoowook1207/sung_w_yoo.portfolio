@@ -42,7 +42,7 @@ export const NavLogo = styled(LinkR) `
     text-decoration: none;
 
     &:hover {
-        color: #4d7c8a
+        color: #6a8cac
     }
 `
 

@@ -5,7 +5,7 @@ export const ContactContainer = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #F7ECE1;
+    background: #c3e8ff;
 
     @media screen and (max-width: 768px) {
         height: 1100px;        
@@ -25,7 +25,7 @@ export const ContactH1 = styled.h1 `
 `
 
 export const Colored = styled.span `
-    color: #4D7C8A;
+    color: #388ad7;
     font-size: 48px;
     font-family: 'Oswald', sans-serif;
 `
@@ -79,7 +79,7 @@ export const TextInput = styled.textarea `
 
 export const ContactButton =styled.input `
     border-radius: 50px;
-    background: #4D7C8A;
+    background: #388ad7;
     white-space: nowrap;
     padding: 12px 30px;
     color: #F7ECE1;

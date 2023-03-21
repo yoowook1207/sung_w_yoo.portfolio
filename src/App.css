@@ -7,10 +7,11 @@
 }
 
 :root {
-  --primary: #4D7C8A;
+  --primary: #d5efff;
   --secondary: #FF7F11;
   --light: #F7ECE1;
   --highlight: #90FCF9;
+  --extra: #388ad7;
 }
 
 h1 {
